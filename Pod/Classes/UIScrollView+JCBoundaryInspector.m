@@ -25,18 +25,35 @@
 }
 
 - (BOOL)isAtTopWithOffset:(CGFloat)offset;{
-    return self.contentOffset.y <= (- self.contentInset.top - offset);
+    return self.contentOffset.y <= (self.topContentOffset - offset);
 }
 
 - (BOOL)isAtBottomWithOffset:(CGFloat)offset;{
-    return (self.contentOffset.y + self.frame.size.height) >= (self.contentSize.height + self.contentInset.bottom + offset);
+    return self.contentOffset.y >= (self.bottomContentOffset + offset);
 }
+
 - (BOOL)isAtLeftWithOffset:(CGFloat)offset;{
-    return self.contentOffset.x <= (- self.contentInset.left - offset);
+    return self.contentOffset.x <= (self.leftContentOffset - offset);
 }
+
 - (BOOL)isAtRightWithOffset:(CGFloat)offset;{
-    return (self.contentOffset.x + self.frame.size.width) >= (self.contentSize.width + self.contentInset.right + offset);
-    
+    return self.contentOffset.x >= (self.rightContentOffset + offset);
+}
+
+- (CGFloat)topContentOffset;{
+    return (- self.contentInset.top);
+}
+
+- (CGFloat)bottomContentOffset;{
+    return self.contentSize.height + self.contentInset.bottom - self.frame.size.height;
+}
+
+- (CGFloat)leftContentOffset;{
+    return (- self.contentInset.left);
+}
+
+- (CGFloat)rightContentOffset;{
+    return self.contentSize.width + self.contentInset.right - self.frame.size.width;
 }
 
 

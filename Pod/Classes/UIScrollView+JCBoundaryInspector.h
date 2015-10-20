@@ -10,32 +10,11 @@
 
 @interface UIScrollView (JCBoundaryInspector)
 
-/**
- *  ScrollView is at top
- *
- *  @return YES if the scrollview is at top
- */
-- (BOOL)isAtTop;
-
-/**
- *  ScrollView is at bottom
- *
- *  @return YES if the scrollView is at bototom
- */
-- (BOOL)isAtBottom;
-/**
- *  ScrollView is at left
- *
- *  @return YES if the scrollView is at left
- */
-- (BOOL)isAtLeft;
-/**
- *  ScrollView is at right
- *
- *  @return YES if the scrollview is at right
- */
-- (BOOL)isAtRight;
-
+#pragma mark - justice the edges
+@property (nonatomic, readonly, getter=isAtTop) BOOL atTop;
+@property (nonatomic, readonly, getter=isAtBottom) BOOL atBottom;
+@property (nonatomic, readonly, getter=isAtLeft) BOOL atLeft;
+@property (nonatomic, readonly, getter=isAtRight) BOOL atRight;
 
 /**
  *  ScrollView is at top offset by offset
@@ -72,5 +51,11 @@
  *  @return YES if the scrollview is at the position offset to right
  */
 - (BOOL)isAtRightWithOffset:(CGFloat)offset;
+
+#pragma mark - offsets
+@property (nonatomic, readonly) CGFloat topContentOffset;
+@property (nonatomic, readonly) CGFloat bottomContentOffset;
+@property (nonatomic, readonly) CGFloat leftContentOffset;
+@property (nonatomic, readonly) CGFloat rightContentOffset;
 
 @end
