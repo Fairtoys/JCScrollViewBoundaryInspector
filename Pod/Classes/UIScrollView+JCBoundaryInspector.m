@@ -29,13 +29,13 @@
 }
 
 - (BOOL)isAtBottomWithOffset:(CGFloat)offset;{
-    return (self.contentOffset.y + self.frame.size.height) >= (self.contentSize.height + self.contentInset.bottom);
+    return (self.contentOffset.y + self.frame.size.height) >= (self.contentSize.height + self.contentInset.bottom + offset);
 }
 - (BOOL)isAtLeftWithOffset:(CGFloat)offset;{
     return self.contentOffset.x <= (- self.contentInset.left - offset);
 }
 - (BOOL)isAtRightWithOffset:(CGFloat)offset;{
-    return (self.contentOffset.x + self.frame.size.width) >= (self.contentSize.width + self.contentInset.right);
+    return (self.contentOffset.x + self.frame.size.width) >= (self.contentSize.width + self.contentInset.right + offset);
     
 }
 
