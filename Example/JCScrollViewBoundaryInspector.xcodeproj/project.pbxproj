@@ -514,6 +514,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JCScrollViewBoundaryInspector/JCScrollViewBoundaryInspector-Prefix.pch";
+				HEADER_SEARCH_PATHS = "./Pods/Headers/**";
 				INFOPLIST_FILE = "JCScrollViewBoundaryInspector/JCScrollViewBoundaryInspector-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,6 +530,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JCScrollViewBoundaryInspector/JCScrollViewBoundaryInspector-Prefix.pch";
+				HEADER_SEARCH_PATHS = "./Pods/Headers/**";
 				INFOPLIST_FILE = "JCScrollViewBoundaryInspector/JCScrollViewBoundaryInspector-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

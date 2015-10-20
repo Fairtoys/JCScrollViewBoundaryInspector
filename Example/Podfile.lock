@@ -1,5 +1,5 @@
 PODS:
-  - JCScrollViewBoundaryInspector (0.1.0)
+  - JCScrollViewBoundaryInspector (0.3.0)
 
 DEPENDENCIES:
   - JCScrollViewBoundaryInspector (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JCScrollViewBoundaryInspector: 52df200f3df57670b1fce7bbd7a3a1dc6891b259
+  JCScrollViewBoundaryInspector: 1b273d6a3e46ac04abd421882df2b50e3d991b36
 
 COCOAPODS: 0.37.2

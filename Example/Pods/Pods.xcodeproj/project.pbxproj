@@ -7,438 +7,402 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1089CD021DB82FC9DF50FB76 /* UIScrollView+JCBoundaryInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6BF30CCEA2E8309ABD9353 /* UIScrollView+JCBoundaryInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2853BC5410DEF29FB6D0222A /* Pods-JCScrollViewBoundaryInspector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD0C544ED57630B0FF7578B /* Pods-JCScrollViewBoundaryInspector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F8B2C3AD988A1C5963CC8D2 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B66229CA4F836771B1D7CDC3 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m */; };
-		4E2F4109184BEE73A17FB90F /* JCScrollViewBoundaryInspector.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DD2A7EDB5F7FB44146D806C0 /* JCScrollViewBoundaryInspector.bundle */; };
-		58482303CA64C133D69E7773 /* UIScrollView+JCBoundaryInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEBFF1FBE054CC8DFFF7223 /* UIScrollView+JCBoundaryInspector.m */; };
-		72469B739360DEFF80ABFF1A /* JCScrollViewBoundaryInspector.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 700C625004F95995AEC0A38D /* JCScrollViewBoundaryInspector.bundle */; };
-		7274191932C4817C834F7519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89356F11E35F5463337A6F80 /* Foundation.framework */; };
-		750BBD0A4E1BA9C9AEB4FEB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89356F11E35F5463337A6F80 /* Foundation.framework */; };
-		8138C58BEEEDF892D9B12D28 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 828E16CB341DDF2270840F20 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m */; };
-		99A00B0ACEFD5229F5A62121 /* Pods-JCScrollViewBoundaryInspector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DC396600D09A140CC424FC /* Pods-JCScrollViewBoundaryInspector_Example-dummy.m */; };
-		A0FFABF205C3628BE0B874FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89356F11E35F5463337A6F80 /* Foundation.framework */; };
-		A782FAF20C0A533E0E63174F /* Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5360B56FDEF0A632275E3864 /* Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6F199E3D51240C4287FA30A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89356F11E35F5463337A6F80 /* Foundation.framework */; };
-		C864FDAA71FAC5EF3F1EE4EE /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE840FDFEFC7276423065C24 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D23999971E385451257BDB5B /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70457A7129850E513F3B129D /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE629798194FCF51B694B24D /* UIScrollView+JCBoundaryInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E6BF30CCEA2E8309ABD9353 /* UIScrollView+JCBoundaryInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF4AD6625339646A2F9EA965 /* UIScrollView+JCBoundaryInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = AFEBFF1FBE054CC8DFFF7223 /* UIScrollView+JCBoundaryInspector.m */; };
-		F6BF338138FFA5C7F7A2A432 /* Pods-JCScrollViewBoundaryInspector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C63DB550C4D5DF6B3ABE03EF /* Pods-JCScrollViewBoundaryInspector_Tests-dummy.m */; };
+		02B4AF10204264C2DD353367 /* Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A23611A03E0BEE744A9D7230 /* Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0809C3D1BC8FF04EAB178CA3 /* UIScrollView+JCBoundaryInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1BC2D57CA281485188EE10 /* UIScrollView+JCBoundaryInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C11322D2FDCD17C2D4DC941 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 978BEA88688F7C0B560AAF1B /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m */; };
+		12372525D4CDA5BA4367A1F2 /* UIScrollView+JCBoundaryInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C1BC2D57CA281485188EE10 /* UIScrollView+JCBoundaryInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29C9FAAF092760BB4FFEBC90 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C072AE13A120CBA99AB1DDCA /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3235FD75836F1471B47F6FE6 /* JCScrollViewBoundaryInspector.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01C66063E77C19D8A9731622 /* JCScrollViewBoundaryInspector.bundle */; };
+		382D8B24CE3D003CA4B0F78C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEF9951E43982F51D843313 /* Foundation.framework */; };
+		5234E94F22DCC8385F7C91B9 /* UIScrollView+JCBoundaryInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5792F016403B59542945E800 /* UIScrollView+JCBoundaryInspector.m */; };
+		77AF4460B4611906B8545286 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEF9951E43982F51D843313 /* Foundation.framework */; };
+		821B36A04F71A6F9F9D398A6 /* UIScrollView+JCBoundaryInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5792F016403B59542945E800 /* UIScrollView+JCBoundaryInspector.m */; };
+		83C605F99C57D93D20766D24 /* Pods-JCScrollViewBoundaryInspector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59789CC46B55035D54AC47F4 /* Pods-JCScrollViewBoundaryInspector_Example-dummy.m */; };
+		88B03B4BBEE690E4CB00FD0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEF9951E43982F51D843313 /* Foundation.framework */; };
+		8F1EE226F5FD44CF72ACC3E3 /* Pods-JCScrollViewBoundaryInspector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F32502F281E9A0B95CFEEACE /* Pods-JCScrollViewBoundaryInspector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97891F9B7AC704CBC99756D0 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED69886312BDA028D2343DDD /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m */; };
+		A42D562472E6F7F861C21FCD /* JCScrollViewBoundaryInspector.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 187723925D047CEC13DEECD3 /* JCScrollViewBoundaryInspector.bundle */; };
+		A4A636A27DCFBC50D3C729F5 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F011E5EF71A9F7E0814E9EF1 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B792337D2866C07DEE934419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDEF9951E43982F51D843313 /* Foundation.framework */; };
+		C0FB8F15232AD471706978AB /* Pods-JCScrollViewBoundaryInspector_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BAAA7E1C5520C3A977AB4C /* Pods-JCScrollViewBoundaryInspector_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		78969E8B0052C50609734F9B /* PBXContainerItemProxy */ = {
+		062BAD5FCF1CBE70AA8DE7AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0AF88EC208CE295DEA15DBD9 /* Project object */;
+			containerPortal = 8DE21704DCCBAA3BAB0129A0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 88F378CB8FD313598F07C8EE;
-			remoteInfo = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
-		};
-		7B746A36B1600AB168982349 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0AF88EC208CE295DEA15DBD9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 72498987D3F91D7EB8FBA0F9;
+			remoteGlobalIDString = 793AACC7583D15C436589BE1;
 			remoteInfo = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector";
 		};
-		AF1AAB371582939A948D4445 /* PBXContainerItemProxy */ = {
+		14FD550C285B58F271E35249 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0AF88EC208CE295DEA15DBD9 /* Project object */;
+			containerPortal = 8DE21704DCCBAA3BAB0129A0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E36A2DC8722074914085ACA0;
+			remoteGlobalIDString = 6B4E901E277ECF9900944909;
 			remoteInfo = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
 		};
-		BCFC4D44D81EDA71395123FB /* PBXContainerItemProxy */ = {
+		C0287309B96BC6D7F86DA902 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0AF88EC208CE295DEA15DBD9 /* Project object */;
+			containerPortal = 8DE21704DCCBAA3BAB0129A0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9D72A4A01276C74D982CEBB6;
+			remoteGlobalIDString = 46A557F6039BA053DDD622FB;
 			remoteInfo = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector";
+		};
+		FA546BEF09DCF48B5C95AB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DE21704DCCBAA3BAB0129A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA003860C2C2D85D980EE666;
+			remoteInfo = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05A65FF9F891DD1B4F21752B /* Pods-JCScrollViewBoundaryInspector_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCScrollViewBoundaryInspector_Example-resources.sh"; sourceTree = "<group>"; };
-		0F630347C0C1737DBC7A694B /* Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0F76FBF6FF57FC32114279D4 /* Pods-JCScrollViewBoundaryInspector_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Tests-environment.h"; sourceTree = "<group>"; };
-		0FB91D834175F0508B0CAC54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Info.plist"; sourceTree = "<group>"; };
-		168ED585B6DD9653C2223BAF /* Pods-JCScrollViewBoundaryInspector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		16E05EF50FBA4BA96D642F6E /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig"; sourceTree = "<group>"; };
-		1FB77B65E31BB8D439DDAA55 /* Pods-JCScrollViewBoundaryInspector_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCScrollViewBoundaryInspector_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2CFF430915471836D75AB078 /* Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3277D30FA3CD1DAC41CA8113 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.modulemap"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.modulemap"; sourceTree = "<group>"; };
-		4742149BA61CA00CA1A2A2FC /* Pods-JCScrollViewBoundaryInspector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCScrollViewBoundaryInspector_Example.modulemap"; sourceTree = "<group>"; };
-		4956DAC8ADFA960A18D4D4D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49F0A0F694C41D9C1D88D2E1 /* Pods-JCScrollViewBoundaryInspector_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Example-environment.h"; sourceTree = "<group>"; };
-		52F4B2CE32E2B425AC234988 /* Pods-JCScrollViewBoundaryInspector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5360B56FDEF0A632275E3864 /* Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h"; sourceTree = "<group>"; };
-		57DC396600D09A140CC424FC /* Pods-JCScrollViewBoundaryInspector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCScrollViewBoundaryInspector_Example-dummy.m"; sourceTree = "<group>"; };
-		5CBE8A96480E1FDFCCDD43B9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5DA24B704B56B164084ACB03 /* Pods-JCScrollViewBoundaryInspector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCScrollViewBoundaryInspector_Example-frameworks.sh"; sourceTree = "<group>"; };
-		61346352C17534EEFF1085A3 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-prefix.pch"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-prefix.pch"; sourceTree = "<group>"; };
-		6B993219162C6387CCB24ACB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E6BF30CCEA2E8309ABD9353 /* UIScrollView+JCBoundaryInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JCBoundaryInspector.h"; sourceTree = "<group>"; };
-		700C625004F95995AEC0A38D /* JCScrollViewBoundaryInspector.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCScrollViewBoundaryInspector.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		70457A7129850E513F3B129D /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h"; sourceTree = "<group>"; };
-		72C27CB37E4D11876EF29975 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.xcconfig"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.xcconfig"; sourceTree = "<group>"; };
-		7BDFF8399B0FD793891D08C1 /* Pods-JCScrollViewBoundaryInspector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Example.release.xcconfig"; sourceTree = "<group>"; };
-		828E16CB341DDF2270840F20 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m"; sourceTree = "<group>"; };
-		88FB43FA4D7D749D8D43EEEE /* Pods-JCScrollViewBoundaryInspector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCScrollViewBoundaryInspector_Tests.modulemap"; sourceTree = "<group>"; };
-		89356F11E35F5463337A6F80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8CD0C544ED57630B0FF7578B /* Pods-JCScrollViewBoundaryInspector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Example-umbrella.h"; sourceTree = "<group>"; };
-		8E8ABD200F56011E356D72D3 /* Pods_JCScrollViewBoundaryInspector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCScrollViewBoundaryInspector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A487BB6C01A74F5C679C4E61 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig"; sourceTree = "<group>"; };
-		A735FC68192F1A1CFED2A20B /* Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AFEBFF1FBE054CC8DFFF7223 /* UIScrollView+JCBoundaryInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JCBoundaryInspector.m"; sourceTree = "<group>"; };
-		B5410102AFB29F7839DD8CDB /* JCScrollViewBoundaryInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCScrollViewBoundaryInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B66229CA4F836771B1D7CDC3 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m"; sourceTree = "<group>"; };
-		B91D07D72F5F4C77F0E8E7BB /* Pods-JCScrollViewBoundaryInspector_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCScrollViewBoundaryInspector_Tests-resources.sh"; sourceTree = "<group>"; };
-		C63DB550C4D5DF6B3ABE03EF /* Pods-JCScrollViewBoundaryInspector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCScrollViewBoundaryInspector_Tests-dummy.m"; sourceTree = "<group>"; };
-		D1050D3EEACD9685D3718B2A /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.xcconfig"; sourceTree = "<group>"; };
-		DA0BA917FE136FC911766943 /* JCScrollViewBoundaryInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCScrollViewBoundaryInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD2A7EDB5F7FB44146D806C0 /* JCScrollViewBoundaryInspector.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCScrollViewBoundaryInspector.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDD47730BCA9BA1E3CBE2BAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0CF1A5213B92CBC66B0FE1D /* Pods_JCScrollViewBoundaryInspector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCScrollViewBoundaryInspector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1A1DA8AADE205DDF073C538 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.modulemap"; sourceTree = "<group>"; };
-		E3605489065452DB781C2A22 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-prefix.pch"; sourceTree = "<group>"; };
-		F40F36141B3DDE25BE33B716 /* Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FCCE20D286C9B09C9AB7CF20 /* Pods-JCScrollViewBoundaryInspector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FE840FDFEFC7276423065C24 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h"; sourceTree = "<group>"; };
+		01C66063E77C19D8A9731622 /* JCScrollViewBoundaryInspector.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCScrollViewBoundaryInspector.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8FAA4B8D6091D55A7D0BD5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D2E23C27D55C9A83635A18F /* Pods-JCScrollViewBoundaryInspector_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Tests-environment.h"; sourceTree = "<group>"; };
+		15026EF589FA5FE0A4204112 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig"; sourceTree = "<group>"; };
+		1612B747CEF305C0372F997B /* Pods-JCScrollViewBoundaryInspector_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Example-environment.h"; sourceTree = "<group>"; };
+		16E4BE0F6702BED27196E1F4 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.xcconfig"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.xcconfig"; sourceTree = "<group>"; };
+		187723925D047CEC13DEECD3 /* JCScrollViewBoundaryInspector.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCScrollViewBoundaryInspector.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		230006AD040C925A67DBB578 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.modulemap"; sourceTree = "<group>"; };
+		2CED2D98CA6A0935FB7CEE27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5FC382B2E6279195173D4A /* Pods-JCScrollViewBoundaryInspector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCScrollViewBoundaryInspector_Tests.modulemap"; sourceTree = "<group>"; };
+		3B27C9E99DE2DBB46A1627C7 /* JCScrollViewBoundaryInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCScrollViewBoundaryInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4070C470A32926FB4648CF75 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44924EC0F3530F41FD8098AA /* Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45D3C7D446A5909D94F4139A /* Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C1BC2D57CA281485188EE10 /* UIScrollView+JCBoundaryInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JCBoundaryInspector.h"; sourceTree = "<group>"; };
+		5792F016403B59542945E800 /* UIScrollView+JCBoundaryInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JCBoundaryInspector.m"; sourceTree = "<group>"; };
+		59789CC46B55035D54AC47F4 /* Pods-JCScrollViewBoundaryInspector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCScrollViewBoundaryInspector_Example-dummy.m"; sourceTree = "<group>"; };
+		5D3ED922B24662BB3868B0C0 /* Pods-JCScrollViewBoundaryInspector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		629879295950BBB522537E61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Info.plist"; sourceTree = "<group>"; };
+		64484189D3E744EAE41EB14A /* Pods-JCScrollViewBoundaryInspector_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCScrollViewBoundaryInspector_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6E4FF661FFBA63CFC0BD10CE /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig"; sourceTree = "<group>"; };
+		74BAAA7E1C5520C3A977AB4C /* Pods-JCScrollViewBoundaryInspector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCScrollViewBoundaryInspector_Tests-dummy.m"; sourceTree = "<group>"; };
+		820A507ABD81A45D7D409AB4 /* Pods-JCScrollViewBoundaryInspector_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCScrollViewBoundaryInspector_Tests-resources.sh"; sourceTree = "<group>"; };
+		83AF354EC2DFE339513BB584 /* Pods-JCScrollViewBoundaryInspector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Example.release.xcconfig"; sourceTree = "<group>"; };
+		978BEA88688F7C0B560AAF1B /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m"; sourceTree = "<group>"; };
+		99C96135100A2C1950C12C30 /* JCScrollViewBoundaryInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JCScrollViewBoundaryInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23611A03E0BEE744A9D7230 /* Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A4CC214E438C764DB1A39510 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-prefix.pch"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-prefix.pch"; sourceTree = "<group>"; };
+		A692A614107B4C27F3C1F24B /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.modulemap"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.modulemap"; sourceTree = "<group>"; };
+		A76B665A4546168B5182DD94 /* Pods_JCScrollViewBoundaryInspector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCScrollViewBoundaryInspector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B79A22F9A9FBA5CA5CD0F58A /* Pods-JCScrollViewBoundaryInspector_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCScrollViewBoundaryInspector_Example-resources.sh"; sourceTree = "<group>"; };
+		B9330E08207249DCC6AB98D4 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.xcconfig"; sourceTree = "<group>"; };
+		BA038DCC094A7E2340C321BC /* Pods_JCScrollViewBoundaryInspector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JCScrollViewBoundaryInspector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCBD13900EC80175CE578138 /* Pods-JCScrollViewBoundaryInspector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDEF9951E43982F51D843313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C072AE13A120CBA99AB1DDCA /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h"; sourceTree = "<group>"; };
+		D622E7250BE29BBD2B22A969 /* Pods-JCScrollViewBoundaryInspector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JCScrollViewBoundaryInspector_Example.modulemap"; sourceTree = "<group>"; };
+		DCEB22F206AFF67833132D5C /* Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E50183B28A6ADD5EDC1B8B41 /* Pods-JCScrollViewBoundaryInspector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JCScrollViewBoundaryInspector_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E614AD5ADFDA7208BCCB78F3 /* Pods-JCScrollViewBoundaryInspector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JCScrollViewBoundaryInspector_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E852A52B6251B5B3DCB69401 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-prefix.pch"; sourceTree = "<group>"; };
+		ED69886312BDA028D2343DDD /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m"; sourceTree = "<group>"; };
+		F011E5EF71A9F7E0814E9EF1 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h"; path = "../Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h"; sourceTree = "<group>"; };
+		F32502F281E9A0B95CFEEACE /* Pods-JCScrollViewBoundaryInspector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JCScrollViewBoundaryInspector_Example-umbrella.h"; sourceTree = "<group>"; };
+		FA1FDB6CCA81EC17D347F9E5 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FC837F7F4C5BCE0E6F190724 /* Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0584D9CB19E05E62EF0B1097 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				750BBD0A4E1BA9C9AEB4FEB9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48DC9D73C9EE3D66880C2103 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B6F199E3D51240C4287FA30A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7FB35CD038459C73FB0FFF1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7274191932C4817C834F7519 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B19AA4F6BF3FF1F619A82CD1 /* Frameworks */ = {
+		2B78F6DD49218A1A6BB6742B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5BF59197499142172B97114 /* Frameworks */ = {
+		4245FABB5DC4678AB1C059AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B792337D2866C07DEE934419 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548F966E87352ACD92F7CD0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B03B4BBEE690E4CB00FD0F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		700329DD48DFC1410280A0D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9989C72EA2E4AD6F9CF73F1 /* Frameworks */ = {
+		BDC39C17F35E1634EDD74777 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0FFABF205C3628BE0B874FA /* Foundation.framework in Frameworks */,
+				77AF4460B4611906B8545286 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1E6C99A7C4B12C31B5708E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				382D8B24CE3D003CA4B0F78C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		10A10714CBFA8D9F37C819F0 /* Pods-JCScrollViewBoundaryInspector_Example */ = {
+		0988D1B4F01AF834BB990017 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6B993219162C6387CCB24ACB /* Info.plist */,
-				4742149BA61CA00CA1A2A2FC /* Pods-JCScrollViewBoundaryInspector_Example.modulemap */,
-				2CFF430915471836D75AB078 /* Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.markdown */,
-				F40F36141B3DDE25BE33B716 /* Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.plist */,
-				57DC396600D09A140CC424FC /* Pods-JCScrollViewBoundaryInspector_Example-dummy.m */,
-				49F0A0F694C41D9C1D88D2E1 /* Pods-JCScrollViewBoundaryInspector_Example-environment.h */,
-				5DA24B704B56B164084ACB03 /* Pods-JCScrollViewBoundaryInspector_Example-frameworks.sh */,
-				05A65FF9F891DD1B4F21752B /* Pods-JCScrollViewBoundaryInspector_Example-resources.sh */,
-				8CD0C544ED57630B0FF7578B /* Pods-JCScrollViewBoundaryInspector_Example-umbrella.h */,
-				52F4B2CE32E2B425AC234988 /* Pods-JCScrollViewBoundaryInspector_Example.debug.xcconfig */,
-				7BDFF8399B0FD793891D08C1 /* Pods-JCScrollViewBoundaryInspector_Example.release.xcconfig */,
+				24C3591E4CF8D6DD964FE52E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		1C09E934EED68700E1BB73E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64D1E8B9D7009F35CAA3C303 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24C3591E4CF8D6DD964FE52E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C1BC2D57CA281485188EE10 /* UIScrollView+JCBoundaryInspector.h */,
+				5792F016403B59542945E800 /* UIScrollView+JCBoundaryInspector.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2CDA48C1CA13F4F0A35FB548 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC71C4C6FB981BC2CA582A /* JCScrollViewBoundaryInspector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2CEA0BCE5E873D5C9B2858F3 /* Pods-JCScrollViewBoundaryInspector_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4070C470A32926FB4648CF75 /* Info.plist */,
+				D622E7250BE29BBD2B22A969 /* Pods-JCScrollViewBoundaryInspector_Example.modulemap */,
+				44924EC0F3530F41FD8098AA /* Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.markdown */,
+				FC837F7F4C5BCE0E6F190724 /* Pods-JCScrollViewBoundaryInspector_Example-acknowledgements.plist */,
+				59789CC46B55035D54AC47F4 /* Pods-JCScrollViewBoundaryInspector_Example-dummy.m */,
+				1612B747CEF305C0372F997B /* Pods-JCScrollViewBoundaryInspector_Example-environment.h */,
+				E50183B28A6ADD5EDC1B8B41 /* Pods-JCScrollViewBoundaryInspector_Example-frameworks.sh */,
+				B79A22F9A9FBA5CA5CD0F58A /* Pods-JCScrollViewBoundaryInspector_Example-resources.sh */,
+				F32502F281E9A0B95CFEEACE /* Pods-JCScrollViewBoundaryInspector_Example-umbrella.h */,
+				E614AD5ADFDA7208BCCB78F3 /* Pods-JCScrollViewBoundaryInspector_Example.debug.xcconfig */,
+				83AF354EC2DFE339513BB584 /* Pods-JCScrollViewBoundaryInspector_Example.release.xcconfig */,
 			);
 			name = "Pods-JCScrollViewBoundaryInspector_Example";
 			path = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example";
 			sourceTree = "<group>";
 		};
-		1592BA3A32AC71778763BDD6 /* Frameworks */ = {
+		34EE25C4036641C210909EEC /* Pods-JCScrollViewBoundaryInspector_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				224339D20F743475B0F9976A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		15F57EE0D652E1CDB17F6D9E = {
-			isa = PBXGroup;
-			children = (
-				5CBE8A96480E1FDFCCDD43B9 /* Podfile */,
-				3B1634A20DCAB75EDC2026A7 /* Development Pods */,
-				1592BA3A32AC71778763BDD6 /* Frameworks */,
-				975D0B69771A028F20F3B09D /* Products */,
-				FB55E3C6CE5CB0A15303A9D7 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		224339D20F743475B0F9976A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				89356F11E35F5463337A6F80 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		3B1634A20DCAB75EDC2026A7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				567F6A97B67F45D444D5E5AB /* JCScrollViewBoundaryInspector */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		4C33375A429489F1D50C7578 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6E6BF30CCEA2E8309ABD9353 /* UIScrollView+JCBoundaryInspector.h */,
-				AFEBFF1FBE054CC8DFFF7223 /* UIScrollView+JCBoundaryInspector.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		567F6A97B67F45D444D5E5AB /* JCScrollViewBoundaryInspector */ = {
-			isa = PBXGroup;
-			children = (
-				FA5BCB59E129B08D61FB5622 /* Pod */,
-				F7F1A2FB0149BC4CA316261E /* Support Files */,
-			);
-			name = JCScrollViewBoundaryInspector;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		602D81061C0CAAB5AD7B4151 /* Pods-JCScrollViewBoundaryInspector_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				4956DAC8ADFA960A18D4D4D0 /* Info.plist */,
-				88FB43FA4D7D749D8D43EEEE /* Pods-JCScrollViewBoundaryInspector_Tests.modulemap */,
-				A735FC68192F1A1CFED2A20B /* Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.markdown */,
-				0F630347C0C1737DBC7A694B /* Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.plist */,
-				C63DB550C4D5DF6B3ABE03EF /* Pods-JCScrollViewBoundaryInspector_Tests-dummy.m */,
-				0F76FBF6FF57FC32114279D4 /* Pods-JCScrollViewBoundaryInspector_Tests-environment.h */,
-				1FB77B65E31BB8D439DDAA55 /* Pods-JCScrollViewBoundaryInspector_Tests-frameworks.sh */,
-				B91D07D72F5F4C77F0E8E7BB /* Pods-JCScrollViewBoundaryInspector_Tests-resources.sh */,
-				5360B56FDEF0A632275E3864 /* Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h */,
-				FCCE20D286C9B09C9AB7CF20 /* Pods-JCScrollViewBoundaryInspector_Tests.debug.xcconfig */,
-				168ED585B6DD9653C2223BAF /* Pods-JCScrollViewBoundaryInspector_Tests.release.xcconfig */,
+				2CED2D98CA6A0935FB7CEE27 /* Info.plist */,
+				2F5FC382B2E6279195173D4A /* Pods-JCScrollViewBoundaryInspector_Tests.modulemap */,
+				DCEB22F206AFF67833132D5C /* Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.markdown */,
+				45D3C7D446A5909D94F4139A /* Pods-JCScrollViewBoundaryInspector_Tests-acknowledgements.plist */,
+				74BAAA7E1C5520C3A977AB4C /* Pods-JCScrollViewBoundaryInspector_Tests-dummy.m */,
+				0D2E23C27D55C9A83635A18F /* Pods-JCScrollViewBoundaryInspector_Tests-environment.h */,
+				64484189D3E744EAE41EB14A /* Pods-JCScrollViewBoundaryInspector_Tests-frameworks.sh */,
+				820A507ABD81A45D7D409AB4 /* Pods-JCScrollViewBoundaryInspector_Tests-resources.sh */,
+				A23611A03E0BEE744A9D7230 /* Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h */,
+				BCBD13900EC80175CE578138 /* Pods-JCScrollViewBoundaryInspector_Tests.debug.xcconfig */,
+				5D3ED922B24662BB3868B0C0 /* Pods-JCScrollViewBoundaryInspector_Tests.release.xcconfig */,
 			);
 			name = "Pods-JCScrollViewBoundaryInspector_Tests";
 			path = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Tests";
 			sourceTree = "<group>";
 		};
-		975D0B69771A028F20F3B09D /* Products */ = {
+		64D1E8B9D7009F35CAA3C303 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DD2A7EDB5F7FB44146D806C0 /* JCScrollViewBoundaryInspector.bundle */,
-				700C625004F95995AEC0A38D /* JCScrollViewBoundaryInspector.bundle */,
-				DA0BA917FE136FC911766943 /* JCScrollViewBoundaryInspector.framework */,
-				B5410102AFB29F7839DD8CDB /* JCScrollViewBoundaryInspector.framework */,
-				E0CF1A5213B92CBC66B0FE1D /* Pods_JCScrollViewBoundaryInspector_Example.framework */,
-				8E8ABD200F56011E356D72D3 /* Pods_JCScrollViewBoundaryInspector_Tests.framework */,
+				BDEF9951E43982F51D843313 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7601BBD2DEBB3A7DD251ECF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187723925D047CEC13DEECD3 /* JCScrollViewBoundaryInspector.bundle */,
+				01C66063E77C19D8A9731622 /* JCScrollViewBoundaryInspector.bundle */,
+				99C96135100A2C1950C12C30 /* JCScrollViewBoundaryInspector.framework */,
+				3B27C9E99DE2DBB46A1627C7 /* JCScrollViewBoundaryInspector.framework */,
+				A76B665A4546168B5182DD94 /* Pods_JCScrollViewBoundaryInspector_Example.framework */,
+				BA038DCC094A7E2340C321BC /* Pods_JCScrollViewBoundaryInspector_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7F1A2FB0149BC4CA316261E /* Support Files */ = {
+		AC3250C2DBA3FE604FF0CF1E = {
 			isa = PBXGroup;
 			children = (
-				DDD47730BCA9BA1E3CBE2BAB /* Info.plist */,
-				0FB91D834175F0508B0CAC54 /* Info.plist */,
-				E1A1DA8AADE205DDF073C538 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.modulemap */,
-				D1050D3EEACD9685D3718B2A /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.xcconfig */,
-				16E05EF50FBA4BA96D642F6E /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */,
-				828E16CB341DDF2270840F20 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m */,
-				E3605489065452DB781C2A22 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-prefix.pch */,
-				FE840FDFEFC7276423065C24 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h */,
-				3277D30FA3CD1DAC41CA8113 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.modulemap */,
-				72C27CB37E4D11876EF29975 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.xcconfig */,
-				A487BB6C01A74F5C679C4E61 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */,
-				B66229CA4F836771B1D7CDC3 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m */,
-				61346352C17534EEFF1085A3 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-prefix.pch */,
-				70457A7129850E513F3B129D /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h */,
+				FA1FDB6CCA81EC17D347F9E5 /* Podfile */,
+				2CDA48C1CA13F4F0A35FB548 /* Development Pods */,
+				1C09E934EED68700E1BB73E9 /* Frameworks */,
+				7601BBD2DEBB3A7DD251ECF0 /* Products */,
+				BC679FE9235D66D347DAA491 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC679FE9235D66D347DAA491 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CEA0BCE5E873D5C9B2858F3 /* Pods-JCScrollViewBoundaryInspector_Example */,
+				34EE25C4036641C210909EEC /* Pods-JCScrollViewBoundaryInspector_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E6CF6F2F997AB5038C2739F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A8FAA4B8D6091D55A7D0BD5 /* Info.plist */,
+				629879295950BBB522537E61 /* Info.plist */,
+				230006AD040C925A67DBB578 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.modulemap */,
+				B9330E08207249DCC6AB98D4 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.xcconfig */,
+				6E4FF661FFBA63CFC0BD10CE /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */,
+				ED69886312BDA028D2343DDD /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m */,
+				E852A52B6251B5B3DCB69401 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-prefix.pch */,
+				C072AE13A120CBA99AB1DDCA /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h */,
+				A692A614107B4C27F3C1F24B /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.modulemap */,
+				16E4BE0F6702BED27196E1F4 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.xcconfig */,
+				15026EF589FA5FE0A4204112 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */,
+				978BEA88688F7C0B560AAF1B /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m */,
+				A4CC214E438C764DB1A39510 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-prefix.pch */,
+				F011E5EF71A9F7E0814E9EF1 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector";
 			sourceTree = "<group>";
 		};
-		FA5BCB59E129B08D61FB5622 /* Pod */ = {
+		FBEC71C4C6FB981BC2CA582A /* JCScrollViewBoundaryInspector */ = {
 			isa = PBXGroup;
 			children = (
-				4C33375A429489F1D50C7578 /* Classes */,
+				0988D1B4F01AF834BB990017 /* Pod */,
+				E6CF6F2F997AB5038C2739F0 /* Support Files */,
 			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		FB55E3C6CE5CB0A15303A9D7 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				10A10714CBFA8D9F37C819F0 /* Pods-JCScrollViewBoundaryInspector_Example */,
-				602D81061C0CAAB5AD7B4151 /* Pods-JCScrollViewBoundaryInspector_Tests */,
-			);
-			name = "Targets Support Files";
+			name = JCScrollViewBoundaryInspector;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5407FAEB2B4432A49726808A /* Headers */ = {
+		481C6F3B86712AE5BCB997D6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D23999971E385451257BDB5B /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h in Headers */,
-				EE629798194FCF51B694B24D /* UIScrollView+JCBoundaryInspector.h in Headers */,
+				A4A636A27DCFBC50D3C729F5 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-umbrella.h in Headers */,
+				12372525D4CDA5BA4367A1F2 /* UIScrollView+JCBoundaryInspector.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		598E21965994084E7102B5A5 /* Headers */ = {
+		6BFF956CDA9BD7D797E34B3D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A782FAF20C0A533E0E63174F /* Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h in Headers */,
+				29C9FAAF092760BB4FFEBC90 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h in Headers */,
+				0809C3D1BC8FF04EAB178CA3 /* UIScrollView+JCBoundaryInspector.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA12AB5458D6B94E90D5FF27 /* Headers */ = {
+		A6275424F41DA4AE02E9F0D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C864FDAA71FAC5EF3F1EE4EE /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-umbrella.h in Headers */,
-				1089CD021DB82FC9DF50FB76 /* UIScrollView+JCBoundaryInspector.h in Headers */,
+				02B4AF10204264C2DD353367 /* Pods-JCScrollViewBoundaryInspector_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA90A7E7192B98B6C2721180 /* Headers */ = {
+		C07674FF820C974BBE7B863D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2853BC5410DEF29FB6D0222A /* Pods-JCScrollViewBoundaryInspector_Example-umbrella.h in Headers */,
+				8F1EE226F5FD44CF72ACC3E3 /* Pods-JCScrollViewBoundaryInspector_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0BAF76099C4F818D868070A3 /* Pods-JCScrollViewBoundaryInspector_Example */ = {
+		2845E3C012D56BC8321744F9 /* Pods-JCScrollViewBoundaryInspector_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE288D3DA9B045A3355DA8AB /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example" */;
+			buildConfigurationList = 956E1913C249C747E70BACD2 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests" */;
 			buildPhases = (
-				D4649591F624C19FBDC4FC39 /* Sources */,
-				F9989C72EA2E4AD6F9CF73F1 /* Frameworks */,
-				CA90A7E7192B98B6C2721180 /* Headers */,
+				E223F6921640A019E64990A5 /* Sources */,
+				4245FABB5DC4678AB1C059AD /* Frameworks */,
+				A6275424F41DA4AE02E9F0D7 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				61EA591A7DF3390537B9D479 /* PBXTargetDependency */,
-			);
-			name = "Pods-JCScrollViewBoundaryInspector_Example";
-			productName = "Pods-JCScrollViewBoundaryInspector_Example";
-			productReference = E0CF1A5213B92CBC66B0FE1D /* Pods_JCScrollViewBoundaryInspector_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1D6DCF7CD56E7E452A51288B /* Pods-JCScrollViewBoundaryInspector_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F49BA2D71C76E45B017BFB67 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests" */;
-			buildPhases = (
-				2100D35B24CB00A87D2BE86F /* Sources */,
-				0584D9CB19E05E62EF0B1097 /* Frameworks */,
-				598E21965994084E7102B5A5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				95E4FE5BFF78ED27D95372CB /* PBXTargetDependency */,
+				39C794AAF987F47BD0B0FA4A /* PBXTargetDependency */,
 			);
 			name = "Pods-JCScrollViewBoundaryInspector_Tests";
 			productName = "Pods-JCScrollViewBoundaryInspector_Tests";
-			productReference = 8E8ABD200F56011E356D72D3 /* Pods_JCScrollViewBoundaryInspector_Tests.framework */;
+			productReference = BA038DCC094A7E2340C321BC /* Pods_JCScrollViewBoundaryInspector_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		72498987D3F91D7EB8FBA0F9 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector */ = {
+		46A557F6039BA053DDD622FB /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 10E90DC750523D5F864A6135 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector" */;
+			buildConfigurationList = 8AFBFD16AB8BBD9FCB13DF73 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector" */;
 			buildPhases = (
-				DFF4E52FC85F6DFA35CF9625 /* Sources */,
-				48DC9D73C9EE3D66880C2103 /* Frameworks */,
-				020A6A4BD1E78085CD0A1F51 /* Resources */,
-				5407FAEB2B4432A49726808A /* Headers */,
+				6040B818C403D16C917AA437 /* Sources */,
+				ED1E6C99A7C4B12C31B5708E /* Frameworks */,
+				D5BA6E7E9AE6D91D5D1240DA /* Resources */,
+				6BFF956CDA9BD7D797E34B3D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9BA8AF5FEDBF6CCDD07E773A /* PBXTargetDependency */,
-			);
-			name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector";
-			productName = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector";
-			productReference = B5410102AFB29F7839DD8CDB /* JCScrollViewBoundaryInspector.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		88F378CB8FD313598F07C8EE /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 51A39D2855A6CF7637BDF35D /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector" */;
-			buildPhases = (
-				BA62246854DE75BCE91F3399 /* Sources */,
-				B19AA4F6BF3FF1F619A82CD1 /* Frameworks */,
-				7CC3B8BB1633BBF3902CFFC9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
-			productName = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
-			productReference = DD2A7EDB5F7FB44146D806C0 /* JCScrollViewBoundaryInspector.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		9D72A4A01276C74D982CEBB6 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF3B3BCEE0A3AB020F309B24 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector" */;
-			buildPhases = (
-				37A94B70C91EB08A16FA34A2 /* Sources */,
-				A7FB35CD038459C73FB0FFF1 /* Frameworks */,
-				6D74886043D984EC893183EC /* Resources */,
-				CA12AB5458D6B94E90D5FF27 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0AD1D954BFDD1960652A2CB0 /* PBXTargetDependency */,
+				8C537E22D95748C120F4C26D /* PBXTargetDependency */,
 			);
 			name = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector";
 			productName = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector";
-			productReference = DA0BA917FE136FC911766943 /* JCScrollViewBoundaryInspector.framework */;
+			productReference = 99C96135100A2C1950C12C30 /* JCScrollViewBoundaryInspector.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E36A2DC8722074914085ACA0 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */ = {
+		5B2A2DA4F4E624B7B232B50D /* Pods-JCScrollViewBoundaryInspector_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7231F702BBF382C31817A9BC /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector" */;
+			buildConfigurationList = EDEEF3B27ED040CF456C9598 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example" */;
 			buildPhases = (
-				540CD5896335850E65C508C8 /* Sources */,
-				E5BF59197499142172B97114 /* Frameworks */,
-				8D0F55D4D82EDDA7CF7EFAE2 /* Resources */,
+				8FCE104C9FDCB72CFC281355 /* Sources */,
+				BDC39C17F35E1634EDD74777 /* Frameworks */,
+				C07674FF820C974BBE7B863D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9D40D659F30C993B13287F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-JCScrollViewBoundaryInspector_Example";
+			productName = "Pods-JCScrollViewBoundaryInspector_Example";
+			productReference = A76B665A4546168B5182DD94 /* Pods_JCScrollViewBoundaryInspector_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B4E901E277ECF9900944909 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1A04830CCA3FC0E6ACCC9A4 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector" */;
+			buildPhases = (
+				7FE9DFEA85958C0EF6FDAB02 /* Sources */,
+				2B78F6DD49218A1A6BB6742B /* Frameworks */,
+				EB37418983DCCB2E55F7407D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -446,64 +410,100 @@
 			);
 			name = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
 			productName = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
-			productReference = 700C625004F95995AEC0A38D /* JCScrollViewBoundaryInspector.bundle */;
+			productReference = 01C66063E77C19D8A9731622 /* JCScrollViewBoundaryInspector.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		793AACC7583D15C436589BE1 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32923FF2DA99022A6F2525E3 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector" */;
+			buildPhases = (
+				F0862A98D747357C4BBD6A1A /* Sources */,
+				548F966E87352ACD92F7CD0B /* Frameworks */,
+				5ACC3845676CABB08F755019 /* Resources */,
+				481C6F3B86712AE5BCB997D6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57BB43CADBC75AF9E9C9C85B /* PBXTargetDependency */,
+			);
+			name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector";
+			productName = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector";
+			productReference = 3B27C9E99DE2DBB46A1627C7 /* JCScrollViewBoundaryInspector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA003860C2C2D85D980EE666 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EC8994A53A9E126908DF971 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector" */;
+			buildPhases = (
+				F4ED6220A2B1076FD1A743B0 /* Sources */,
+				700329DD48DFC1410280A0D7 /* Frameworks */,
+				1E5AC5CFB4A2174A48546084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
+			productName = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
+			productReference = 187723925D047CEC13DEECD3 /* JCScrollViewBoundaryInspector.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0AF88EC208CE295DEA15DBD9 /* Project object */ = {
+		8DE21704DCCBAA3BAB0129A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 76A3A3EB6CA90B363F8950C2 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 559ECF6371CF6E76C58D9966 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 15F57EE0D652E1CDB17F6D9E;
-			productRefGroup = 975D0B69771A028F20F3B09D /* Products */;
+			mainGroup = AC3250C2DBA3FE604FF0CF1E;
+			productRefGroup = 7601BBD2DEBB3A7DD251ECF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BAF76099C4F818D868070A3 /* Pods-JCScrollViewBoundaryInspector_Example */,
-				9D72A4A01276C74D982CEBB6 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector */,
-				E36A2DC8722074914085ACA0 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */,
-				1D6DCF7CD56E7E452A51288B /* Pods-JCScrollViewBoundaryInspector_Tests */,
-				72498987D3F91D7EB8FBA0F9 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector */,
-				88F378CB8FD313598F07C8EE /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */,
+				5B2A2DA4F4E624B7B232B50D /* Pods-JCScrollViewBoundaryInspector_Example */,
+				46A557F6039BA053DDD622FB /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector */,
+				6B4E901E277ECF9900944909 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */,
+				2845E3C012D56BC8321744F9 /* Pods-JCScrollViewBoundaryInspector_Tests */,
+				793AACC7583D15C436589BE1 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector */,
+				EA003860C2C2D85D980EE666 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		020A6A4BD1E78085CD0A1F51 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E2F4109184BEE73A17FB90F /* JCScrollViewBoundaryInspector.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D74886043D984EC893183EC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72469B739360DEFF80ABFF1A /* JCScrollViewBoundaryInspector.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7CC3B8BB1633BBF3902CFFC9 /* Resources */ = {
+		1E5AC5CFB4A2174A48546084 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D0F55D4D82EDDA7CF7EFAE2 /* Resources */ = {
+		5ACC3845676CABB08F755019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42D562472E6F7F861C21FCD /* JCScrollViewBoundaryInspector.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BA6E7E9AE6D91D5D1240DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3235FD75836F1471B47F6FE6 /* JCScrollViewBoundaryInspector.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB37418983DCCB2E55F7407D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -513,87 +513,144 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2100D35B24CB00A87D2BE86F /* Sources */ = {
+		6040B818C403D16C917AA437 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6BF338138FFA5C7F7A2A432 /* Pods-JCScrollViewBoundaryInspector_Tests-dummy.m in Sources */,
+				97891F9B7AC704CBC99756D0 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m in Sources */,
+				821B36A04F71A6F9F9D398A6 /* UIScrollView+JCBoundaryInspector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37A94B70C91EB08A16FA34A2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8138C58BEEEDF892D9B12D28 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-dummy.m in Sources */,
-				58482303CA64C133D69E7773 /* UIScrollView+JCBoundaryInspector.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		540CD5896335850E65C508C8 /* Sources */ = {
+		7FE9DFEA85958C0EF6FDAB02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA62246854DE75BCE91F3399 /* Sources */ = {
+		8FCE104C9FDCB72CFC281355 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83C605F99C57D93D20766D24 /* Pods-JCScrollViewBoundaryInspector_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4649591F624C19FBDC4FC39 /* Sources */ = {
+		E223F6921640A019E64990A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99A00B0ACEFD5229F5A62121 /* Pods-JCScrollViewBoundaryInspector_Example-dummy.m in Sources */,
+				C0FB8F15232AD471706978AB /* Pods-JCScrollViewBoundaryInspector_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFF4E52FC85F6DFA35CF9625 /* Sources */ = {
+		F0862A98D747357C4BBD6A1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F8B2C3AD988A1C5963CC8D2 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m in Sources */,
-				EF4AD6625339646A2F9EA965 /* UIScrollView+JCBoundaryInspector.m in Sources */,
+				0C11322D2FDCD17C2D4DC941 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-dummy.m in Sources */,
+				5234E94F22DCC8385F7C91B9 /* UIScrollView+JCBoundaryInspector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4ED6220A2B1076FD1A743B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0AD1D954BFDD1960652A2CB0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
-			target = E36A2DC8722074914085ACA0 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */;
-			targetProxy = AF1AAB371582939A948D4445 /* PBXContainerItemProxy */;
-		};
-		61EA591A7DF3390537B9D479 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector";
-			target = 9D72A4A01276C74D982CEBB6 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector */;
-			targetProxy = BCFC4D44D81EDA71395123FB /* PBXContainerItemProxy */;
-		};
-		95E4FE5BFF78ED27D95372CB /* PBXTargetDependency */ = {
+		39C794AAF987F47BD0B0FA4A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector";
-			target = 72498987D3F91D7EB8FBA0F9 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector */;
-			targetProxy = 7B746A36B1600AB168982349 /* PBXContainerItemProxy */;
+			target = 793AACC7583D15C436589BE1 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector */;
+			targetProxy = 062BAD5FCF1CBE70AA8DE7AD /* PBXContainerItemProxy */;
 		};
-		9BA8AF5FEDBF6CCDD07E773A /* PBXTargetDependency */ = {
+		57BB43CADBC75AF9E9C9C85B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
-			target = 88F378CB8FD313598F07C8EE /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */;
-			targetProxy = 78969E8B0052C50609734F9B /* PBXContainerItemProxy */;
+			target = EA003860C2C2D85D980EE666 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */;
+			targetProxy = FA546BEF09DCF48B5C95AB50 /* PBXContainerItemProxy */;
+		};
+		8C537E22D95748C120F4C26D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector";
+			target = 6B4E901E277ECF9900944909 /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector */;
+			targetProxy = 14FD550C285B58F271E35249 /* PBXContainerItemProxy */;
+		};
+		C9D40D659F30C993B13287F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector";
+			target = 46A557F6039BA053DDD622FB /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector */;
+			targetProxy = C0287309B96BC6D7F86DA902 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A2E094E895B8FA63D66B34B /* Debug */ = {
+		23C8394ED37EC468A9FA1B1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FCCE20D286C9B09C9AB7CF20 /* Pods-JCScrollViewBoundaryInspector_Tests.debug.xcconfig */;
+			baseConfigurationReference = E614AD5ADFDA7208BCCB78F3 /* Pods-JCScrollViewBoundaryInspector_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				HEADER_SEARCH_PATHS = "./Pods/Headers/**";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example/Pods-JCScrollViewBoundaryInspector_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JCScrollViewBoundaryInspector_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43A6F22A2992245F777FE708 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15026EF589FA5FE0A4204112 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JCScrollViewBoundaryInspector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		480A3487E9E957DE58A6AFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3ED922B24662BB3868B0C0 /* Pods-JCScrollViewBoundaryInspector_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -607,7 +664,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Tests/Pods-JCScrollViewBoundaryInspector_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -618,69 +675,93 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		0DDF8F4DD82A860C617F5138 /* Release */ = {
+		81FAFE754451B90905A57C04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83AF354EC2DFE339513BB584 /* Pods-JCScrollViewBoundaryInspector_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				HEADER_SEARCH_PATHS = "./Pods/Headers/**";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example/Pods-JCScrollViewBoundaryInspector_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_JCScrollViewBoundaryInspector_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		3D7BB429ED109FAA00C114FB /* Debug */ = {
+		9B9B78B1D18A9506D5F03797 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A487BB6C01A74F5C679C4E61 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */;
+			baseConfigurationReference = 6E4FF661FFBA63CFC0BD10CE /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCScrollViewBoundaryInspector_Tests";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = JCScrollViewBoundaryInspector;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		4B307D6E955EC329797E08C8 /* Debug */ = {
+		9D115FBC028AD15905EABEE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16E05EF50FBA4BA96D642F6E /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */;
+			baseConfigurationReference = 6E4FF661FFBA63CFC0BD10CE /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCScrollViewBoundaryInspector_Example";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = JCScrollViewBoundaryInspector;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		60372AEB0E8D907D6CE450A6 /* Debug */ = {
+		A230D1F59C94DA391D577C45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -719,78 +800,9 @@
 			};
 			name = Debug;
 		};
-		8874674EC9B698687B600B15 /* Release */ = {
+		ADE758C5631DD220CC339A38 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16E05EF50FBA4BA96D642F6E /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JCScrollViewBoundaryInspector;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8C5CC38526628E5A6672362E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52F4B2CE32E2B425AC234988 /* Pods-JCScrollViewBoundaryInspector_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example/Pods-JCScrollViewBoundaryInspector_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_JCScrollViewBoundaryInspector_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		914E17234916876876598A23 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A487BB6C01A74F5C679C4E61 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCScrollViewBoundaryInspector_Tests";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = JCScrollViewBoundaryInspector;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B4D9AB588D95CD8C2B2BB15F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16E05EF50FBA4BA96D642F6E /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */;
+			baseConfigurationReference = 6E4FF661FFBA63CFC0BD10CE /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCScrollViewBoundaryInspector_Example";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -801,38 +813,35 @@
 			};
 			name = Release;
 		};
-		C6A4489F23D11D0370AF6CD6 /* Release */ = {
+		D2E348D3617580C8CAC0F7C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BDFF8399B0FD793891D08C1 /* Pods-JCScrollViewBoundaryInspector_Example.release.xcconfig */;
+			baseConfigurationReference = 15026EF589FA5FE0A4204112 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCScrollViewBoundaryInspector_Tests";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example/Pods-JCScrollViewBoundaryInspector_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_JCScrollViewBoundaryInspector_Example;
+				PRODUCT_NAME = JCScrollViewBoundaryInspector;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		D4A45726D7EB42C838DE008F /* Debug */ = {
+		D3B6B815A688117401EFF18B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A487BB6C01A74F5C679C4E61 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */;
+			baseConfigurationReference = 6E4FF661FFBA63CFC0BD10CE /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCScrollViewBoundaryInspector_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JCScrollViewBoundaryInspector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D70819EE64A520F33930ADA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15026EF589FA5FE0A4204112 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -857,36 +866,56 @@
 			};
 			name = Debug;
 		};
-		E39A3F03AFD126AA6CB6F3B9 /* Debug */ = {
+		D8E61ABE8ECFBFC6098DE128 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16E05EF50FBA4BA96D642F6E /* Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-Private.xcconfig */;
+			baseConfigurationReference = 15026EF589FA5FE0A4204112 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-JCScrollViewBoundaryInspector_Tests";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = JCScrollViewBoundaryInspector;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
-		E40EDFEC0B70463CACED2468 /* Release */ = {
+		F4D9C209FBFB8C89A5E73DF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 168ED585B6DD9653C2223BAF /* Pods-JCScrollViewBoundaryInspector_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFC763C6406533C7AFC1A32D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCBD13900EC80175CE578138 /* Pods-JCScrollViewBoundaryInspector_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -900,7 +929,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Tests/Pods-JCScrollViewBoundaryInspector_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -911,102 +940,75 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
-		};
-		ED80741E3A6D7BD227A37652 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A487BB6C01A74F5C679C4E61 /* Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector/Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JCScrollViewBoundaryInspector;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		10E90DC750523D5F864A6135 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector" */ = {
+		32923FF2DA99022A6F2525E3 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D4A45726D7EB42C838DE008F /* Debug */,
-				ED80741E3A6D7BD227A37652 /* Release */,
+				D70819EE64A520F33930ADA3 /* Debug */,
+				43A6F22A2992245F777FE708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		51A39D2855A6CF7637BDF35D /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector" */ = {
+		559ECF6371CF6E76C58D9966 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D7BB429ED109FAA00C114FB /* Debug */,
-				914E17234916876876598A23 /* Release */,
+				A230D1F59C94DA391D577C45 /* Debug */,
+				F4D9C209FBFB8C89A5E73DF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7231F702BBF382C31817A9BC /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector" */ = {
+		6EC8994A53A9E126908DF971 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B307D6E955EC329797E08C8 /* Debug */,
-				B4D9AB588D95CD8C2B2BB15F /* Release */,
+				D8E61ABE8ECFBFC6098DE128 /* Debug */,
+				D2E348D3617580C8CAC0F7C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76A3A3EB6CA90B363F8950C2 /* Build configuration list for PBXProject "Pods" */ = {
+		8AFBFD16AB8BBD9FCB13DF73 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				60372AEB0E8D907D6CE450A6 /* Debug */,
-				0DDF8F4DD82A860C617F5138 /* Release */,
+				9D115FBC028AD15905EABEE5 /* Debug */,
+				9B9B78B1D18A9506D5F03797 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE288D3DA9B045A3355DA8AB /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example" */ = {
+		956E1913C249C747E70BACD2 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C5CC38526628E5A6672362E /* Debug */,
-				C6A4489F23D11D0370AF6CD6 /* Release */,
+				FFC763C6406533C7AFC1A32D /* Debug */,
+				480A3487E9E957DE58A6AFA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F49BA2D71C76E45B017BFB67 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Tests" */ = {
+		B1A04830CCA3FC0E6ACCC9A4 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A2E094E895B8FA63D66B34B /* Debug */,
-				E40EDFEC0B70463CACED2468 /* Release */,
+				D3B6B815A688117401EFF18B /* Debug */,
+				ADE758C5631DD220CC339A38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF3B3BCEE0A3AB020F309B24 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector" */ = {
+		EDEEF3B27ED040CF456C9598 /* Build configuration list for PBXNativeTarget "Pods-JCScrollViewBoundaryInspector_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E39A3F03AFD126AA6CB6F3B9 /* Debug */,
-				8874674EC9B698687B600B15 /* Release */,
+				23C8394ED37EC468A9FA1B1A /* Debug */,
+				81FAFE754451B90905A57C04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0AF88EC208CE295DEA15DBD9 /* Project object */;
+	rootObject = 8DE21704DCCBAA3BAB0129A0 /* Project object */;
 }

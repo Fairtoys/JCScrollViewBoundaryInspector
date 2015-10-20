@@ -9,6 +9,6 @@
 // JCScrollViewBoundaryInspector
 #define COCOAPODS_POD_AVAILABLE_JCScrollViewBoundaryInspector
 #define COCOAPODS_VERSION_MAJOR_JCScrollViewBoundaryInspector 0
-#define COCOAPODS_VERSION_MINOR_JCScrollViewBoundaryInspector 1
+#define COCOAPODS_VERSION_MINOR_JCScrollViewBoundaryInspector 3
 #define COCOAPODS_VERSION_PATCH_JCScrollViewBoundaryInspector 0
 
