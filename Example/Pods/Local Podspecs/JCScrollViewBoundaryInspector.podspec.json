@@ -1,0 +1,25 @@
+{
+  "name": "JCScrollViewBoundaryInspector",
+  "version": "0.1.0",
+  "summary": "A short description of JCScrollViewBoundaryInspector.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/JCScrollViewBoundaryInspector",
+  "license": "MIT",
+  "authors": {
+    "Cerko": "313574889@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/JCScrollViewBoundaryInspector.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "JCScrollViewBoundaryInspector": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

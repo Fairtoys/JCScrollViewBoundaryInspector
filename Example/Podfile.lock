@@ -1,0 +1,14 @@
+PODS:
+  - JCScrollViewBoundaryInspector (0.1.0)
+
+DEPENDENCIES:
+  - JCScrollViewBoundaryInspector (from `../`)
+
+EXTERNAL SOURCES:
+  JCScrollViewBoundaryInspector:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JCScrollViewBoundaryInspector: 8536de719285b21377c6955fb2217bcffda0f40c
+
+COCOAPODS: 0.37.2
