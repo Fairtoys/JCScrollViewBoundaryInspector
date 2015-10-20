@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  JCScrollViewBoundaryInspector: 8536de719285b21377c6955fb2217bcffda0f40c
+  JCScrollViewBoundaryInspector: 52df200f3df57670b1fce7bbd7a3a1dc6891b259
 
 COCOAPODS: 0.37.2

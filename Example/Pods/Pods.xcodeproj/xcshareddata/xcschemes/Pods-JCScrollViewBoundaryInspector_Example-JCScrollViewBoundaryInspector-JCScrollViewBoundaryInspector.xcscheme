@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A867BF60718F4018FF930033"
+               BlueprintIdentifier = "E36A2DC8722074914085ACA0"
                BuildableName = "JCScrollViewBoundaryInspector.bundle"
                BlueprintName = "Pods-JCScrollViewBoundaryInspector_Example-JCScrollViewBoundaryInspector-JCScrollViewBoundaryInspector"
                ReferencedContainer = "container:Pods.xcodeproj">

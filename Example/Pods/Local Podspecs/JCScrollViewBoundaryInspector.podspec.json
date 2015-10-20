@@ -1,8 +1,7 @@
 {
   "name": "JCScrollViewBoundaryInspector",
   "version": "0.1.0",
-  "summary": "A short description of JCScrollViewBoundaryInspector.",
-  "description": "",
+  "summary": "The boundary inspector of UIScrollView",
   "homepage": "https://github.com/<GITHUB_USERNAME>/JCScrollViewBoundaryInspector",
   "license": "MIT",
   "authors": {
